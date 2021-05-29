@@ -8,6 +8,6 @@ public class MessagesTest {
 	@Test
 	public void validateSendMessages()
 	{
-		
+		System.out.println("Executing the Send MEssage");
 	}
 }
