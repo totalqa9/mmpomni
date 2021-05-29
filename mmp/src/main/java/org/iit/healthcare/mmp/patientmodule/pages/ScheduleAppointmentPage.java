@@ -8,7 +8,9 @@ import org.openqa.selenium.support.ui.Select;
 
 public class ScheduleAppointmentPage {
 	WebDriver driver;
-	
+	/**
+	Constructor
+	*/
 	public ScheduleAppointmentPage(WebDriver driver) {
 		
 		 this.driver = driver;
