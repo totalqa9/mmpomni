@@ -16,8 +16,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version>
         <configuration>
-            <fork>true</fork>
-            <executable>C:\Program Files\Java\jdk1.8.0_281\bin\javac.exe</executable>
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
       </plugin>
 	     <plugin>
@@ -32,11 +32,18 @@
         </configuration>
       </plugin>
     </plugins>
+    
   </build>
 
 
 
   <dependencies>
+  <dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.13</version>
+</dependency>
+  
    <!-- https://mvnrepository.com/artifact/com.google.common/google-collect -->
 <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 <dependency>
